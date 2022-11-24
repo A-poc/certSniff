@@ -4,11 +4,7 @@ CertSniff is a python based keyword sniffer, using the certstream certificate tr
 ![image](https://user-images.githubusercontent.com/100603074/203795385-1ce9b0bd-da0e-446e-8abb-42ead14e7aeb.png)
 
 # Install
-`git clone https://github.com/A-poc/certSniff`
-
-`cd certSniff/`
-
-`pip install -r requirements.txt`
+`git clone https://github.com/A-poc/certSniff;cd certSniff/;pip install -r requirements.txt`
 
 # Example
 You can monitor live certificate transparency logs that contain any string within a keyword file.
