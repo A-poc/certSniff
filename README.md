@@ -6,7 +6,7 @@ CertSniff is a python based keyword sniffer, using the certstream certificate tr
 # Install
 `git clone https://github.com/A-poc/certSniff`
 
-`cd /certSniff`
+`cd certSniff/`
 
 `pip install -r requirements.txt`
 
