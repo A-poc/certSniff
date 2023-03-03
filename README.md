@@ -1,7 +1,7 @@
 # certSniff
 CertSniff is a python based keyword sniffer, using the certstream certificate transparency log data stream, that monitors for domain certificate events containing a string of interest.
 
-![image](https://user-images.githubusercontent.com/100603074/203795385-1ce9b0bd-da0e-446e-8abb-42ead14e7aeb.png)
+<img width="642" alt="image" src="https://user-images.githubusercontent.com/100603074/222743482-2432f2b3-39af-4cc5-84e1-cb032d73e2a9.png">
 
 # Install
 ```bash
@@ -20,21 +20,17 @@ dev
 
 `python3 certSniff.py -f example.txt`
 ```
-
-                              █████     █████████              ███     ██████     ██████ 
-                             ░░███     ███░░░░░███            ░░░     ███░░███   ███░░███
-  ██████   ██████  ████████  ███████  ░███    ░░░  ████████   ████   ░███ ░░░   ░███ ░░░ 
- ███░░███ ███░░███░░███░░███░░░███░   ░░█████████ ░░███░░███ ░░███  ███████    ███████   
-░███ ░░░ ░███████  ░███ ░░░   ░███     ░░░░░░░░███ ░███ ░███  ░███ ░░░███░    ░░░███░    
-░███  ███░███░░░   ░███       ░███ ███ ███    ░███ ░███ ░███  ░███   ░███       ░███     
-░░██████ ░░██████  █████      ░░█████ ░░█████████  ████ █████ █████  █████      █████    
- ░░░░░░   ░░░░░░  ░░░░░        ░░░░░   ░░░░░░░░░  ░░░░ ░░░░░ ░░░░░  ░░░░░      ░░░░░     
+╔═╗┌─┐┬─┐┌┬┐╔═╗┌┐┌┬┌─┐┌─┐
+║  ├┤ ├┬┘ │ ╚═╗││││├┤ ├┤ 
+╚═╝└─┘┴└─ ┴ ╚═╝┘└┘┴└  └  
 Certificate Transparency Log Sniffer
 -----------------------------------------------------------------------------------------
-    
 Using sniff words from [example.txt]
-11/24/22 13:18:31 + aonecnameg.goce.workers.dev
-11/24/22 13:18:31 + sbzvbzoompezxyu.southcentralus.atlas-test.cloudapp.azure.com
-11/24/22 13:18:32 + admin-test.crystal.io
+
+[03/03/23 14:16:45]:[aonecnameg.goce.workers.dev]
+[03/03/23 14:16:45]:[csbzvbzoompezxyu.southcentralus.atlas-test.cloudapp.azure.com]
+[03/03/23 14:16:45]:[admin-test.crystal.io]
+[03/03/23 14:16:45]:[dev-chompy.qmo.io]
+[03/03/23 14:16:45]:[backuptest.blacklightsupport.co.za]
 ...
 ```
